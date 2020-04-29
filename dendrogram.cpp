@@ -19,7 +19,7 @@ dendrogram::dendrogram(cloud &_c)
     parent = new int[n];
     rank = new int[n];
 
-    left = new int[n];
+    ## left = new int[n];
     down = new int[n];
 
     height = new double[n];
